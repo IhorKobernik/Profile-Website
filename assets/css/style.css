@@ -1312,3 +1312,8 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
+.img-fluid{
+  width : 655px;
+  height: 260px;
+}
