@@ -1315,5 +1315,9 @@ footer .credits a {
 
 .img-fluid{
   width : 655px;
-  height: 360px;
+  height: 260px;
+}
+
+.img-blog{
+  height: 360px !important;
 }
