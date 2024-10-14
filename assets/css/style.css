@@ -1321,3 +1321,23 @@ footer .credits a {
 .img-blog{
   height: 360px !important;
 }
+
+.anim-button {
+  display: inline-block; /* Ensures the button is treated as an inline block */
+  border-radius: 20px; 
+  padding: 5px 20px;
+  cursor: pointer; /* Changes the cursor to pointer on hover */
+  animation: bump 1.5s infinite; /* Applies the bump animation */
+}
+
+@keyframes bump {
+  0% {
+      transform: scale(1); /* Original size */
+  }
+  50% {
+      transform: scale(1.1); /* Grow to 110% */
+  }
+  100% {
+      transform: scale(1); /* Back to original size */
+  }
+}
