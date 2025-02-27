@@ -1343,10 +1343,10 @@ footer .credits a {
 }
 
 .devto-link{
-  color: #fff;
+  color: #fff !important;
   text-decoration: underline;
 }
 
 .c-white{
-  filter: invert(1) brightness(2);
+  filter: invert(1) brightness(2) !important;
 }
