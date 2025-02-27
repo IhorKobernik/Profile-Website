@@ -1341,3 +1341,12 @@ footer .credits a {
       transform: scale(1); /* Back to original size */
   }
 }
+
+.devto-link{
+  color: #fff;
+  text-decoration: underline;
+}
+
+.c-white{
+  filter: invert(1) brightness(2);
+}
